@@ -1,4 +1,5 @@
-import React from "react";
+import CartProduct from "../components/CartProduct";
+
 import { useDispatch, useSelector } from "react-redux";
 import CartProduct from "../component/CartProduct";
 
@@ -132,4 +133,11 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+import React from "react";
+
+const CartProduct = () => {
+  return <div>Cart Product Component</div>;
+};
+
+export default CartProduct;
+

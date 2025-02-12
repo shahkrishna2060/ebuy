@@ -16,5 +16,12 @@ export const categorySlice = createSlice({
   },
 });
 
+const productCount = productData?.length || 0;
+const categoryCount = categoryData?.length || 0;
+
 export const { setDataCategory } = categorySlice.actions;
-export default categorySlice.reducer;
+
+  type: "category/setData",
+  payload: data,
+});
+

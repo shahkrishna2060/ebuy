@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Home from "./page/home"; // If it's lowercase
+
 
 const Homecard = ({name,image,category,price,loading,id}) => {
   return (
@@ -34,12 +36,10 @@ const Homecard = ({name,image,category,price,loading,id}) => {
 
 export default Homecard
 
-// import React from 'react'
+import React from "react";
 
-// const Homecard = () => {
-//   return (
-//     <div>Homecard</div>
-//   )
-// }
+const Home = () => {
+  return <h1>Home Page</h1>;
+};
 
-// export default Homecard
+export default Home;
